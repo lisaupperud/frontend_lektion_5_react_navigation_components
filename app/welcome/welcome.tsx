@@ -48,7 +48,9 @@ export function Welcome() {
             />
           </div>
           {/* component */}
-          <CustomButton/>
+          <CustomButton customButtonName={"Contact Support"}/>
+          <CustomButton customButtonName={"Shop"}/>
+          <CustomButton customButtonName={"Landing Page"}/>
           <Link to={"/about"}>Navigate to About Page</Link>
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
